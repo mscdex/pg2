@@ -1,0 +1,25 @@
+{
+  "name": "pg2",
+  "version": "0.0.0",
+  "description": "A PostgreSQL driver for node.js that focuses on performance",
+  "main": "lib/Client.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mscdex/pg2.git"
+  },
+  "keywords": [
+    "pgsql",
+    "postgresql",
+    "postgres",
+    "database",
+    "db",
+    "client"
+  ],
+  "author": "Brian White <mscdex@mscdex.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mscdex/pg2/issues"
+  },
+  "homepage": "https://github.com/mscdex/pg2#readme",
+  "engines" : { "node" : ">=6.3.0" }
+}
