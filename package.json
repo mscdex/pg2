@@ -1,6 +1,6 @@
 {
   "name": "pg2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A PostgreSQL driver for node.js that focuses on performance",
   "main": "lib/Client.js",
   "repository": {
