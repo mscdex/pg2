@@ -67,7 +67,7 @@ c.end();
 
 * Using arrays (faster) instead of objects for rows:
 
-```javascript
+```js
 var Client = require('pg2');
 
 var c = new Client({
@@ -88,7 +88,7 @@ c.end();
 
 * Using positional parameters in a query:
 
-```javascript
+```js
 var Client = require('pg2');
 
 var c = new Client({
