@@ -185,3 +185,5 @@ TODO (in no particular order)
 * `client.abort()` that implicitly opens a new, temporary connection to kill the currently running query
 
 * COPY data support (both in and out)
+
+* SSL/TLS connection support
