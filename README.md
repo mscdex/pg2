@@ -169,6 +169,8 @@ Client methods
 
 * **connect**([< _function_ >callback]) - _(void)_ - Explicitly attempts to connect to the server. Note that calling `query()` will implicitly attempt a connection if one is not already made. If not connected, `callback` is added as a one-time `'ready'` event listener.
 
+* **abort**([< _function_ >callback]) - _(void)_ - Aborts the currently running query. `callback` is called after the cancel request has been sent.
+
 * **end**() - _(void)_ - Closes the connection once all queries in the queue have been executed.
 
 * **destroy**() - _(void)_ - Closes the connection immediately, even if there are other queries still in the queue. Any/all queries still in the queue are properly notified.
@@ -183,8 +185,6 @@ TODO (in no particular order)
 ====
 
 * Allow passing back of data type OIDs for columns sent by the server
-
-* `client.abort()` that implicitly opens a new, temporary connection to kill the currently running query
 
 * COPY data support (both in and out)
 
