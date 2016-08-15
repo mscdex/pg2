@@ -4,6 +4,8 @@ Description
 
 A PostgreSQL driver for [node.js](http://nodejs.org/) that focuses on performance.
 
+Tested with PostgreSQL 9.5.
+
 
 Requirements
 ============
